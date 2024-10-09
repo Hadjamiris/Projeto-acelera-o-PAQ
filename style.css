@@ -1,0 +1,26 @@
+
+body{
+    font-family:'Kulim Park' 
+}
+
+.menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+h1{
+font-size: 8.0em;
+font-weight: 700;
+text-align: center;
+}
+
+
+p{
+color: #DF994E;
+font-family:'Kulim Park' ;
+font-size: 2em ;
+font-weight: 700;
+text-align: center;
+}
+

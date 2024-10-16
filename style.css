@@ -19,19 +19,20 @@ ul{
     display: flex;
     padding: 1px;
     padding-right: 40px;
-    padding: 40px;
+    
 } 
 
 li {
     width: 50%;
     list-style-type: none;
     text-decoration :none;
-   
+    
   }
 
  a{
     text-decoration :none;
     color: #ffffff;
+    padding: 5px;
  }
 
 .foto{

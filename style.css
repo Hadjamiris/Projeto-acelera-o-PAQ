@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
 body{
     font-family:'Kulim Park' 
 }
@@ -6,6 +11,7 @@ body{
 .navegaçao {
     background-image: url();
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
  
@@ -24,6 +30,7 @@ ul{
 } 
 
 li {
+    color: #ffffff;
     width: 50%;
     list-style-type: none;
     text-decoration :none;
@@ -57,64 +64,26 @@ font-family:'Kulim Park' ;
 font-size: 2em ;
 font-weight: 700;
 text-align: center;
-=======
-body{
-    font-family:'Kulim Park' 
 }
 
-.navegaçao {
-    background-image: url();
-    display: flex;
-    justify-content: space-between;
-}
- 
-.foto-logo{
-    width: 94px;
-    height: 92px;
+@media only screen and (max-width: 600px) {
+    h1, p{
+        font-size: 2rem;
+    }
 
+    .tela-inicial{
+       
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-}
-  
-ul{
-    display: flex;
-    padding: 1px;
-    padding-right: 40px;
-    
-} 
+    .foto{
+        height: 100vh
+    }
 
-li {
-    width: 50%;
-    list-style-type: none;
-    text-decoration :none;
-    
-  }
-
- a{
-    text-decoration :none;
-    color: #ffffff;
-    padding: 5px;
- }
-
-.foto{
-    background-image: url(https://s3-alpha-sig.figma.com/img/7d4a/b292/ae2e792c0dafc3826f298076e71bda07?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bi0GloqL03kAonSUewevePpKwM-LbVU3K9DRM5hPSsFL5odibLX1WthzFh97ORKbIdVXKr1pshK~QHx6RpSSDj8sfbZhiqTMgXz3cHUbA6srqma9jBPbeLseSL4ThPRqiPdbHEgKwoLRGPBKPbZAXHhxxikcOT9YT71lFsi2rPAU-rWArTzODbPZxEk6Y8k1nBwqtAe9Eqk0CRReYimdoUqdkvwmZK~T3vQiVuy5kHDvTucfa~sBwxwuKCjjQLSVHn-GdR5EdAvMJfP5rgeXZI2DdK7Z1vnXYzhOpaT3D6kuzRtu1U-KtPSSLaI57~tqz3DK9YZJK1mk9F~yf~ywKQ__);
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
-
-
-h1{
-font-size: 8.0em;
-font-weight: 700;
-text-align: center;
-}
-
-
-p{
-color: #DF994E;
-font-family:'Kulim Park' ;
-font-size: 2em ;
-font-weight: 700;
-text-align: center;
->>>>>>> 56620407f7d9858b665bb48b40418fc2fd71b2ba
+    li{
+        font-size: 1rem
+    }
 }

@@ -51,20 +51,67 @@ li {
 }
 
 
-h1{
+.hadja{
 font-size: 8.0em;
 font-weight: 700;
 text-align: center;
 }
 
 
-p{
+.paragrafo{
 color: #DF994E;
 font-family:'Kulim Park' ;
 font-size: 2em ;
 font-weight: 700;
 text-align: center;
 }
+
+
+.tela-2{
+    display: flex;
+    align-items: center;
+
+    background-color: #000;
+}
+
+.textinho{
+    color: #666666 ;
+    font-family: "Inter", sans-serif;
+    padding-left: 20px;
+    text-align: center;
+    
+    
+}
+
+.titulo1{
+    color: #ffffff;
+    font-family:'Kulim Park' ;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+.botao{
+ background:#DF994E ;
+ padding: 15px 25px 15px 25px;
+ font-size: 17px;
+ 
+ 
+
+}
+.foto1{
+    width: 500px;
+    height: 350px;
+    padding:45px 0 0 45px;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
     h1, p{

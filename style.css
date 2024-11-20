@@ -52,7 +52,7 @@ li {
 
 
 .hadja{
-font-size: 8.0em;
+font-size: 8.0rem;
 font-weight: 700;
 text-align: center;
 }
@@ -61,9 +61,10 @@ text-align: center;
 .paragrafo{
 color: #DF994E;
 font-family:'Kulim Park' ;
-font-size: 2em ;
+font-size: 2rem ;
 font-weight: 700;
 text-align: center;
+
 }
 
 
@@ -77,8 +78,9 @@ text-align: center;
 .textinho{
     color: #666666 ;
     font-family: "Inter", sans-serif;
-    padding-left: 20px;
+    padding-left: 40px;
     text-align: center;
+    font-size: 1.2rem;
     
     
 }
@@ -95,14 +97,101 @@ text-align: center;
  background:#DF994E ;
  padding: 15px 25px 15px 25px;
  font-size: 17px;
- 
+ margin-top: 25px;
  
 
 }
 .foto1{
-    width: 500px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
     padding:45px 0 0 45px;
+}
+
+
+.frase{
+    background: black;
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    padding: 150px;
+    
+}
+
+.caixa-2{
+    background: #000;
+  
+}
+
+.textos-pag1{
+    text-align: center;
+    
+    width: 40%;
+}
+
+.caixa-foto{
+    width: 50%;
+}
+
+.tela-inicial{
+    padding-top: 150px;
+}
+
+.tela-4{
+    background-color: #000;
+    font-family:'Kulim Park' ;
+    display: flex;
+    font-size: 2rem;
+
+}
+
+.titulo-final{
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+    padding: 40px;
+   
+}
+
+.ultima-fotinha{
+    background-color: #000;
+    width: 50%;
+    height: 500px;
+    padding-left: 40px;
+    
+}
+
+.ultima-caixa{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    padding-left: 60px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+
+
+h3{
+    color: #ffffff;
+    background-color: #000;
+}
+    
+.frases{
+    color: #ffffff;
+    background-color: #000;
+   
+}
+
+.roda-pe{
+
+background-color: #000;
+}
+
+.roda-pe{
+    text-align: center;
+    padding: 85px;
 }
 
 
